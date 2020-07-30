@@ -5,4 +5,8 @@ defmodule FooTest do
   test "greets the world" do
     assert Foo.hello() == :world
   end
+
+  test "fail" do
+    assert Foo.fail() == :ok
+  end
 end

@@ -15,4 +15,8 @@ defmodule Foo do
   def hello do
     :world
   end
+
+  def fail do
+    raise "Stop!"
+  end
 end
